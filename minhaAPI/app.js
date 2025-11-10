@@ -1,6 +1,6 @@
 const express = require('express');
 const usuarioRouter = require('./routes/usuario');
-const professorRouter = require('./routes/professor'); // Importando a rota de professores
+const professorRouter = require('./routes/professor');
 
 const app = express();
 const port = 3000;
